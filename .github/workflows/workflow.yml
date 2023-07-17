@@ -18,8 +18,8 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm test
-      - uses: actions/checkout@main
-      - uses: mandykparson/devon-parson@main
+      - uses: actions/checkout@master
+      - uses: mandykparson/devon-parson@master
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
