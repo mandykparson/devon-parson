@@ -1,21 +1,21 @@
 import './Contact.css';
-import { useState } from 'react';
+// import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function Contact() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+//   const [name, setName] = useState('');
+//   const [email, setEmail] = useState('');
+//   const [message, setMessage] = useState('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Perform form submission logic or API call here
-    console.log('Form submitted:', { name, email, message });
-    // Reset form fields
-    setName('');
-    setEmail('');
-    setMessage('');
-  };
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     // Perform form submission logic or API call here
+//     console.log('Form submitted:', { name, email, message });
+//     // Reset form fields
+//     setName('');
+//     setEmail('');
+//     setMessage('');
+//   };
 
   return (
     <Container className="contact-container">
