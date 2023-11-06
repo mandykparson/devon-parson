@@ -7,15 +7,29 @@ export default function Home() {
     <Container className="home-container">
         <Row className="home-row">
             <Col>
-                <Image src="https://img1.wsimg.com/isteam/ip/94ed2665-ba11-4c53-9478-9ef976fc5138/IMG_0131-0001.jpg" fluid />
+                <Image
+                src={process.env.PUBLIC_URL + '/images/IMG_4189.JPG'}
+                fluid
+                style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                />
             </Col>
             <Col>
-                <Image src="https://img1.wsimg.com/isteam/ip/94ed2665-ba11-4c53-9478-9ef976fc5138/IMG_0129.jpg" fluid />
+                <Image
+                src={process.env.PUBLIC_URL + '/images/IMG_4190.JPG'}
+                fluid
+                style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                />
             </Col>
             <Col>
-                <Image src="https://img1.wsimg.com/isteam/ip/94ed2665-ba11-4c53-9478-9ef976fc5138/IMG_0138.jpg" fluid />
+                <Image
+                src={process.env.PUBLIC_URL + '/images/IMG_4191.JPG'}
+                fluid
+                style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                />
             </Col>
-        </Row>
+            </Row>
+
+
     </Container>
   )
 }

@@ -6,6 +6,9 @@ export default function Gallery() {
     <Container>
         <Row className="gallery-row">
             <Col>
+                <h1>Coming Soon</h1>
+            </Col>
+            {/* <Col>
                 <Image src="https://img1.wsimg.com/isteam/ip/94ed2665-ba11-4c53-9478-9ef976fc5138/IMG_0131-0001.jpg" fluid rounded />
             </Col>
             <Col>
@@ -35,7 +38,7 @@ export default function Gallery() {
             </Col>
             <Col>
                 <Image src="https://img1.wsimg.com/isteam/ip/94ed2665-ba11-4c53-9478-9ef976fc5138/7f5ae985-733f-4d15-9c6a-88db12ecf578.JPG" fluid rounded />
-            </Col>
+            </Col> */}
         </Row>
     </Container>
   )
