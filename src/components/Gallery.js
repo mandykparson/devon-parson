@@ -1,5 +1,6 @@
 import './Gallery.css'
-import { Container, Row, Col, Image } from 'react-bootstrap'
+// import { Container, Row, Col, Image } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 export default function Gallery() {
   return (
