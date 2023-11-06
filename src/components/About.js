@@ -7,7 +7,7 @@ export default function About() {
     <Container className="about-container">
         <Row className="about-row">
             <Col >
-                <Image src='/images/IMG_4279.JPG' fluid style={{ maxHeight: '75vh', width: '100%', objectFit: 'cover',}}/>
+                <Image src="https://i.imgur.com/yrzJtjc.jpg" fluid style={{ maxHeight: '75vh', width: '100%', objectFit: 'cover',}}/>
             </Col>
             <Col>
                 <p>
